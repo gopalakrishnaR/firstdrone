@@ -1,5 +1,6 @@
 #Drone CI File!
 #Commit Message: Drone! Captain Canary is here! 
+#Added my repo
 
 kind: pipeline
 type: kubernetes
@@ -19,6 +20,6 @@ steps:
       from_secret: docker_username
     password:
       from_secret: docker_password
-    repo: rlachhman/myrepo
-    auto_tag: true
+    repo: gopal2732/harnessu
+    auto_tag: -'1.0.1'
     auto_tag_suffix: drone-build

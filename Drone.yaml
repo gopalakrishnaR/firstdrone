@@ -17,8 +17,8 @@ steps:
   image: plugins/docker
   settings:
     username:
-      from_secret: docker_username
-    password:
+      from_secret: gopal2732
+    password:D@ocker01
       from_secret: docker_password
     repo: gopal2732/harnessu
     auto_tag: -'1.0.1'

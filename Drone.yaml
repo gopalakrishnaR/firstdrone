@@ -18,8 +18,8 @@ steps:
   settings:
     username:
       from_secret: gopal2732
-    password:D@ocker01
-      from_secret: docker_password
+    password:
+      from_secret: D@ocker01
     repo: gopal2732/harnessu
     auto_tag: -'1.0.1'
     auto_tag_suffix: drone-build
